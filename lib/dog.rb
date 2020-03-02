@@ -1,4 +1,4 @@
-# Add your code here
+require pry
 class Dog
   attr_accessor :name
 
@@ -25,5 +25,8 @@ class Dog
   end
 
   def save
+    binding.pry
+    self.all
+
   end
 end

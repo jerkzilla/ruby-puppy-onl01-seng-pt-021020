@@ -26,7 +26,6 @@ class Dog
 
   def save
     binding.pry
-    name
-
+    
   end
 end
